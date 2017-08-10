@@ -96,17 +96,6 @@ if(in[i]==')')
 	}
 }
 while(s1.top!=-1)
-post[j++]=pop(&s1);
-post[j]='\0';
-}
-int priority(char c)
-{
-if(c=='+'||c=='-')
-return 1;
-else
-(c=='*'||c=='/');
-return 2;
-}
-}
+post
 	
 	
