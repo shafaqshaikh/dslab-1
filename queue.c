@@ -34,8 +34,12 @@ void insertQueue(int d)
 	    }
 	rear++;
 	queue[rear]=d;
+<<<<<<< HEAD
 	printf("YOUR ELEMENT IS SUCESSFULLY INSERTED=%d",queue[rear]
 	);
+=======
+	printf("YOUR ELEMENT IS SUCESSFULLY INSERTED=%d",queue[rear]);
+>>>>>>> 048544fd7764da5d25e961964d2b6581ac2e6649
     }	
 	else
     printf("Queue is full element cannot be inserted");	

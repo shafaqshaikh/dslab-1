@@ -5,33 +5,7 @@ typedef struct conversion
 	char a[30];
 	int top;
 }stack;
-void push(stack*,char)
-{
-//inserts an element into stack
-if(wheter stack is not full)
-{
-	increment the top
-	set top of stack equal e
-	msg element e succ inserted
-}
-else{
-	msg stack overflow
-}
-}
-char pop(stack*)
-{
-//delete an element from top of stack
-int d;
-f(wheter stack is not empty)
-{
-	increment the top
-	set top of stack equal e
-	msg element e succ inserted
-}
-else{
-	msg stack underflow
-}
-}
+
 char pop(stack*);
 void convert(char[],char[]);
 int priority(char);
@@ -57,7 +31,35 @@ void convert(char in[],char post[])
 		if(in[i]=='(')
 		push(&s1,in[i]);
 		if(in[i]=='+'||in[i]=='-'||in[i]=='/'||in[i]=='*')
-		{
+	void push(int e)
+{
+//insert an element into stack
+if(!isfull)
+{
+top++;
+stack[top]=e;
+printf("element %d succesfully inserted",e);
+
+}
+else{
+printf("stack overflow");
+
+}
+}
+void pop()
+{
+int d;
+if(!isempty())
+{
+d=stack[top];
+top--;
+printf("element deleted");
+}
+else{
+
+printf("stack overflow");
+}
+}	{
 			if(s1.top!=-1)
 			{
 				opr=pop(&s1);
