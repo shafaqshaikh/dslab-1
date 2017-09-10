@@ -86,3 +86,33 @@ int main()
 	}while(1);
 	return 0;
 }
+output:
+
+Enter
+1.Peek
+2.Push
+3.Pop
+4.Exit
+Enter your choice: 2
+
+Enter the elment to be inserted: 4
+
+Your element 4 is successfully inserted
+Enter
+1.Peek
+2.Push
+3.Pop
+4.Exit
+Enter your choice: 2
+
+Enter the elment to be inserted: 2
+
+Your element 2 is successfully inserted
+Enter
+1.Peek
+2.Push
+3.Pop
+4.Exit
+Enter your choice: 1
+
+Element at the top of stack is : 2
