@@ -101,3 +101,22 @@ int main(){
 	}while(1);
 	return 0;
 }
+output:
+1.DISPLAY
+2.Insert
+3.delete
+4.Exit
+Enter your choice: 2
+
+Enter the elment to be inserted: 2
+YOUR ELEMENT IS SUCESSFULLY INSERTED=2
+Enter
+1.DISPLAY
+2.Insert
+3.delete
+4.Exit
+Enter your choice: 2
+
+Enter the elment to be inserted: 3
+YOUR ELEMENT IS SUCESSFULLY INSERTED=3
+
