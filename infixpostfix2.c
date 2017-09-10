@@ -99,3 +99,12 @@ char pop(stack *s)
 		return data;
     }
 }
+output:
+ENTER INFIX EXPRESSION
+a+b*c   
+
+
+POSTFIX EXPRESSION
+abc*+
+
+
